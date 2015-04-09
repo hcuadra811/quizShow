@@ -1,0 +1,620 @@
+{
+    "header" : "Lenguajes de Programación",
+    "questions" :
+        [
+            {
+                "question" : "El lenguaje de Programación de Ada",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Fue desarrollado por Ada Lovelace",
+                        "Fue el primer lenguaje de programación de alto nivel",
+                        "Fue desarrollado para las necesidades del departamento de defensa de EE.UU.",
+                        "Es totalmente orientado a objetos",
+                        "No contiene orientación a objetos"
+                    ],
+                "answers" : [2,4]
+            },
+            {
+                "question" : "El primer lenguaje de programación fue de alto nivel fue...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "COBOL",
+                        "PASCAL",
+                        "LISP",
+                        "FORTRAN",
+                        "ALGOL"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "El SMALLTALK tiene las características de",
+                "options" :
+                    [
+                        "Ser un lenguaje desarrollado en XEROX Palo Alto",
+                        "Originalmente hecho para interfaces de impresoras y fotocopiadoras",
+                        "Esta inspirado en simula",
+                        "Es totalmente dinámico",
+                        "Todas las anteriores",
+                        "Ninguna de las anteriores"
+                    ],
+                "answers" : [4]
+            },
+            {
+                "question" : "El LISP es un lenguaje",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional basado en el cálculo lambda",
+                        "Con tipos dinámicos",
+                        "Desarrollado por Grace Hopper",
+                        "Hecho para procesamiento simbólico por John McCarthy",
+                        "Orientado a Objetos"
+                    ],
+                "answers" : [0,1,3]
+            },
+            {
+                "question" : "El C fue creado",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "por Bjarne Stroustrup",
+                        "en los laboratorios de Xerox Palo Alto",
+                        "para resolver problemas de programación de sistemas",
+                        "en los laboratorios de Bell Telephone",
+                        "para implementar el sistema operativo de UNIX"
+                    ],
+                "answers" : [2,3,4]
+            },
+            {
+                "question" : "Grace Hopper fue...",
+                "options" :
+                    [
+                        "Apodada Amacing Grace",
+                        "Desarrolladora den el proyecto de UNIVAC",
+                        "Inventora del lenguaje FLOWMATIC",
+                        "Influyente en el desarrollo de COBOL",
+                        "Almirante en las fuerzas Navales de EE.UU.",
+                        "Ganadora del premio inagural de ´Man of the year´de la data processing association en 1969",
+                        "Todas las anteriores"
+                    ],
+                "answers" : [6]
+            },
+            {
+                "question" : "el Haskell es un lenguaje ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional orientado a objetos",
+                        "Con transparencia referencial",
+                        "Desarrollado para la programación de sistemas",
+                        "De tipos dinámicos"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "el Haskell es un lenguaje ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional con evaluación ansiosa",
+                        "Desarrollado para la programación de sistemas",
+                        "De tipos dinámicos",
+                        "Sin efectos secundarios"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "el Haskell es un lenguaje ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional con evaluación perezosa",
+                        "Desarrollado para la programación de sistemas",
+                        "De tipos dinámicos",
+                        "Sin efectos secundarios"
+                    ],
+                "answers" : [0,3]
+            },
+            {
+                "question" : "el Haskell es un lenguaje ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional con evaluación perezosa",
+                        "Desarrollado para la programación de sistemas",
+                        "De tipos estáticos",
+                        "Sin efectos secundarios"
+                    ],
+                "answers" : [0,2,3]
+            },
+            {
+                "question" : "el Haskell es un lenguaje ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Funcional con evaluación perezosa",
+                        "Con inferencia de tipos",
+                        "De tipos estáticos",
+                        "Sin efectos secundarios"
+                    ],
+                "answers" : [0,1,2,3]
+            },
+            {
+                "question" : "El lenguaje de programación python se llama así...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Por que a su inventor le gustaban las culebras",
+                        "Porque esta basado en el lenguaje Cobra, su antecesor",
+                        "En honor al grupo de comediantes ingleses Monty Python",
+                        "Por una sugerencia de la casa O´Reilly ya que sus libros tiempre tienen un animal en la portada"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "Guido Van Rossum es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El creador del erlang",
+                        "El creador de perl",
+                        "El creador de Python",
+                        "El creador de C++",
+                        "Uno de los creadores de Haskell"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "Simon Peyton Jones es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El creador del erlang",
+                        "El creador de perl",
+                        "El creador de Python",
+                        "El creador de C++",
+                        "Uno de los creadores de Haskell"
+                    ],
+                "answers" : [4]
+            },
+            {
+                "question" : "Bjarne Stroustup es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El creador del erlang",
+                        "El creador de perl",
+                        "El creador de Python",
+                        "El creador de C++",
+                        "Uno de los creadores de Haskell"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "Grace Hopper es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "la creadora del LISP",
+                        "la creadora de perl",
+                        "la creadora de COBOL",
+                        "la creadora de PASCAL",
+                        "la creadora de Haskell"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "John McCarthy es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "el creador del LISP",
+                        "el creador de perl",
+                        "el creador de COBOL",
+                        "el creador de PASCAL",
+                        "el creador de Haskell"
+                    ],
+                "answers" : [0]
+            },
+            {
+                "question" : "Niklaus Wirth es",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "el creador del LISP",
+                        "el creador de perl",
+                        "el creador de COBOL",
+                        "el creador de PASCAL",
+                        "el Creador de Haskell"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "Son lenguajes lógicos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Haskell",
+                        "Prolog",
+                        "Erlang",
+                        "Datalog",
+                        "Oz"
+                    ],
+                "answers" : [1,3,4]
+            },
+            {
+                "question" : "Son lenguajes funcionales ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Haskell",
+                        "Prolog",
+                        "Erlang",
+                        "Scala",
+                        "Oz"
+                    ],
+                "answers" : [0,2,3]
+            },
+            {
+                "question" : "Son lenguajes imperativos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Haskell",
+                        "Ada",
+                        "Erlang",
+                        "C",
+                        "Pascal"
+                    ],
+                "answers" : [1,3,4]
+            },
+            {
+                "question" : "Las estructuras de datos infinitas",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren para implementarse de tipos de datos dinámicos",
+                        "Solo se pueden implementar en lenguajes no estrictos",
+                        "Requieren de evaluación perezosa para implementarse",
+                        "No se pueden implementar en lenguajes de programaciòn",
+                        "Son una abstracción que sólo se utiliza en semántica denotacional"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "Las tablas de hash en el lenguaje javascript",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren de require('hashtable') para utilizarse, ya que estan implementadas como una biblioteca",
+                        "No existen como estructura de datos del lenguaje",
+                        "Son iguales a los arrays",
+                        "Se pueden implementar utilizando objetos, ya que los objetos de javascript son tablas de hash"
+                    ],
+                "answers" : [1,3]
+            },
+            {
+                "question" : "En el Haskell la entrada y salida",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Es igual que en cualquier otro lenguaje de programación",
+                        "Se debe llevar a cabo dentro de una estructura llamada una mónada",
+                        "Toda función que la lleve a cabo debe tener el IO en su tipo",
+                        "Se consideran procesos aleatorios y se implementan con series de tiempo"
+                    ],
+                "answers" :[1,2]
+            },
+            {
+                "question" : "Una gramática se dice que es ambigua cuando...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Existe una hilera en el lenguaje que tiene más de una forma ser derivada a partir de las reglas",
+                        "Existe una hilera que tiene más de una interpretación en la semántica del lenguaje",
+                        "No hay forma de derivar ciertas hileras válidas del lenguaje",
+                        "Existe una hilera en el lenguaje que tiene más de un árbol de derivación a partir de las reglas"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "Una gramática se dice que es libre de contexto si",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El lenguaje que representa tiene hileras que tienen un significado independiente del contexto",
+                        "Las reglas de la gramática tienen un único símbolo del lado izquierdo de cada regla",
+                        "Se puede reconocer utilizando autómatas de estado finito",
+                        "Las reglas de la gramática tienen un único símbolo del lado derecho de cada regla"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "Por semántica denotacional entendemos",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El proceso de mapear las estructuras del lenguaje a objetos matemáticos con un significado conocido",
+                        "El proceso de establecer el significado de las instrucciones del lenguaje en una máquina virtual abstracta de alto nivel",
+                        "El proceso de anotar el código del programa con aserciones lógicas que se deben cumplir tales como precondiciones y poscondiciones"
+                    ],
+                "answers" : [0]
+            },
+            {
+                "question" : "Por semántica operacional entendemos",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El proceso de mapear las estructuras del lenguaje a objetos matemáticos con un significado conocido",
+                        "El proceso de establecer el significado de las instrucciones del lenguaje en una máquina virtual abstracta de alto nivel",
+                        "El proceso de anotar el código del programa con aserciones lógicas que se deben cumplir tales como precondiciones y poscondiciones"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "Por semántica axiomatica entendemos",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "El proceso de mapear las estructuras del lenguaje a objetos matemáticos con un significado conocido",
+                        "El proceso de establecer el significado de las instrucciones del lenguaje en una máquina virtual abstracta de alto nivel",
+                        "El proceso de anotar el código del programa con aserciones lógicas que se deben cumplir tales como precondiciones y poscondiciones"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "Los tres tipos de semántica para lenguajes de programación son",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "denotacional, operacional y abstracta",
+                        "axiomatica, denotacional y dinámica",
+                        "estática, dinámica y posicional",
+                        "abstracta, denotacional y axiomática",
+                        "axiomática, denotacional y operacional"
+                    ],
+                "answers" : [4]
+            },
+            {
+                "question" : "Son etapas del proceso de compilación",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Bootstraping",
+                        "Análisis Contextual",
+                        "Análisis Semántico",
+                        "Análisis Léxico",
+                        "Generación de Código",
+                        "Preprocesamiento"
+                    ],
+                "answers" : [1,3,4,5]
+            },
+            {
+                "question" : "Son etapas del proceso de compilación",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Bootstraping",
+                        "Análisis Semántico",
+                        "Análisis Sintáctico",
+                        "Análisis Léxico",
+                        "Generación de Código",
+                        "Loading"
+                    ],
+                "answers" : [2,3,4]
+            },
+            {
+                "question" : "A que evalua la siguiente expresión en cálculo lambda  \\[\\lambda wyx.y(wyx)\\;\\lambda sz.s(s(z))\\]",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "\\(x\\)",
+                        "\\(\\lambda ab.a(a(ab))\\)",
+                        "\\(\\lambda sz.s(sz)\\)",
+                        "\\(\\lambda xy.x(x(x(xy)))\\)"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "A que evalua la siguiente expresión en cálculo lambda \\[\\lambda sz.s(sz) \\; \\lambda wyx.y(wyx) \\; \\lambda sz.s(sz)\\]",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "\\(x\\)",
+                        "\\(\\lambda ab.a(a(ab))\\)",
+                        "\\(\\lambda sz.s(sz)\\)",
+                        "\\(\\lambda xy.x(x(x(xy)))\\)"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "A que evalua la siguiente expresión en cálculo lambda \\[\\lambda xy.xyF \\; \\lambda ab.a \\; \\lambda sz.z\\] donde \\(F=\\lambda uv.v\\) y \\(T=\\lambda uv.u\\)",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "\\( x \\)",
+                        "\\(\\lambda uv.v\\)",
+                        "\\( \\lambda ab.a(a(ab)) \\)",
+                        "\\( \\lambda sz.s(sz) \\)",
+                        "\\( \\lambda xy.x(x(x(xy))) \\)"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "EL cálculo lambda es ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Un tipo de semántica operacional",
+                        "Un lenguaje Turing completo",
+                        "Utilizado mucho en lenguajes funcionales",
+                        "Desarrollado por Allan Turing",
+                        "Una abstracción no implementable",
+                        "Una forma de sacar derivadas parciales de una función en variable compleja"
+                    ],
+                "answers" : [0,1,2]
+            },
+            {
+                "question" : "Los tipos dinámicos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Son propiedad del valor y no de la variable",
+                        "Son propiedad de la variable y no del valor",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No permiten mezclarse libremente y hay que hacer conversión de tipos explícita"
+                    ],
+                "answers" : [0]
+            },
+            {
+                "question" : "Los tipos estáticos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Son propiedad del valor y no de la variable",
+                        "Son propiedad de la variable y no del valor",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No permiten mezclarse libremente y hay que hacer conversión de tipos explícita"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "Los tipos estrictos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Son propiedad del valor y no de la variable",
+                        "Son propiedad de la variable y no del valor",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No permiten mezclarse libremente y hay que hacer conversión de tipos explícita"
+                    ],
+                "answers" : [3]
+            },
+            {
+                "question" : "Los tipos laxos o no estrictos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Son propiedad del valor y no de la variable",
+                        "Son propiedad de la variable y no del valor",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No permiten mezclarse libremente y hay que hacer conversión de tipos explícita"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "Los tipos dinámicos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren que el interprete o programa revise los tipos en tiempo de ejecución",
+                        "Se resuelven en el momento que se compila el programa",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No requieren de conversión de tipos explícita",
+                        "Generan una excepción cuando se utilizan valores de distinto tipo en una expresión"
+                    ],
+                "answers" : [0]
+            },
+            {
+                "question" : "Los tipos estáticos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren que el interprete o programa revise los tipos en tiempo de ejecución",
+                        "Se resuelven en el momento que se compila el programa",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No requieren de conversión` de tipos explícita",
+                        "Generan una excepción cuando se utilizan valores de distinto tipo en una expresión"
+                    ],
+                "answers" : [1]
+            },
+            {
+                "question" : "Los tipos estrictos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren que el interprete o programa revise los tipos en tiempo de ejecución",
+                        "Se resuelven en el momento que se compila el programa",
+                        "Permiten mezclarse libremente como por ejemplo entre punteros y enteros",
+                        "No requieren de conversión de tipos explícita",
+                        "Generan una excepción cuando se utilizan valores de distinto tipo en una expresión"
+                    ],
+                "answers" : [4]
+            },
+            {
+                "question" : "Los tipos no estrictos ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Requieren que el interprete o programa revise los tipos en tiempo de ejecución",
+                        "Se resuelven en el momento que se compila el programa",
+                        "No requieren de conversión de tipos explícita para mezclarse en una expresión",
+                        "Generan una excepción cuando se utilizan valores de distinto tipo en una expresión"
+                    ],
+                "answers" : [2]
+            },
+            {
+                "question" : "fun f(n, sum): return (n==0?sum:f(n-1,sum+n))",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "En un compilador con optimización de recursión de cola no hace crecer el stack",
+                        "Calcula la suma de 1 hasta n, donde n es su parámetro",
+                        "No se puede optimizar, ya que la llamada recursiva necesita evaluar el if",
+                        "Esta escrita en Haskell"
+                    ],
+                "answers" : [0]
+            },
+            {
+                "question" : "La genericidad permite que",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Se implementan con Templates en el lenguaje C++",
+                        "Se implementan con 'Boxed Types' en lenguajes funcionales",
+                        "Permiten que un lenguaje pueda definir funciones que operan sobre estructuras de datos de más de un tipo",
+                        "Permiten que los módulos en un lenguaje de programación puedan utilizarse en muchos contextos",
+                        "No se puede implementar en lenguajes con tipos dinámicos"
+                    ],
+                    "answers" : [0,1,2]
+            },
+            {
+                "question" : "Cuando se debe escojer una variable en el ambito estatico, por ejemplo x=x+1, ...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Se escoje la variable que se encuentra más cerca en la pila de ejecución del programa",
+                        "Se escoje la variable que se encuentra más cerca en el texto del programa",
+                        "Se escoje la variable que se encuentra en la misma función",
+                        "Se escoje la variable que se encuentra en el mismo archivo fuente"
+                    ],
+                "answers" : [0,1]
+            },
+            {
+                "question" : "Dada la funcion: fun f(x,y) {return x} ... ",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "f es estricta si da error evaluada con f(3,4/0)",
+                        "f no es estricta si da error con f(3,4/0)",
+                        "f es no estricta si no da error con f(3/0, 4)",
+                        "f es no estricta si no da error con f(3, 4/0)"
+                    ],
+                "answers" : [0,3]
+            },
+            {
+                "question" : "A que evalua la siguiente expresión en cálculo lambda \\[\\lambda xy.xyF \\; \\lambda ab.a \\; \\lambda sz.z\\] donde \\(F=\\lambda uv.v\\) y \\(T=\\lambda uv.u\\)",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "\\( x \\)",
+                        "\\( \\lambda ab.a \\)",
+                        "\\( \\lambda sz.z \\)",
+                        "\\( \\lambda xy.x(x(x(xy))) \\)"
+                    ],
+                "answers" : [2]
+            }
+        ]
+}

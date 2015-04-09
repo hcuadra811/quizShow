@@ -1,0 +1,19 @@
+{
+    "header" : "Inteligencia Artificial",
+    "questions" :
+        [
+            {
+                "question" : "Las redes neurales sirven para...",
+                "randomizable" : "true",
+                "options" :
+                    [
+                        "Reconocimiento de patrones",
+                        "Analisis de audio",
+                        "Programar un quicksort",
+                        "Regresion no lineal",
+                        "Aprendizaje"
+                    ],
+                "answers" : [0,1,3,4]
+            }
+       ]
+}

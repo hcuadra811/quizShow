@@ -1,0 +1,117 @@
+extends layout
+
+block content
+  script(type='text/javascript').
+    function range1(i) {return (i+1)?range1(i-1).concat(i):[]};
+    $(document).ready(function(){
+      $("#submit").click(function(){
+        var checkbox_value = "";
+        var results = [];
+        var i = 0;
+        $(":checkbox").each(function () {
+          var ischecked = $(this).is(":checked");
+          if (ischecked) {
+            checkbox_value += $(this).val();
+            results[results.length] = i++
+          }
+        });
+        // your awesome code calling ajax
+        $.post("/accion", 
+                { numquestion: $("#quiz-options").data("value"),
+                  quizID: $("#text-question").data("value"),
+                  response: checkbox_value}, 
+                function(answer){
+          console.log(document);
+          if (answer.result)
+            alert("got it right!");
+          else
+            alert("got it wrong :(");
+          document.getElementById("text-question").innerHTML = answer.nextQuestion.question;
+          console.log($("#quiz-options").data("value"));
+          $("#quiz-options").empty();
+          $("#quiz-options").data("value",answer.numQuestion);
+          var idx_opts = range1(answer.nextQuestion.options.length-1);
+          if (answer.nextQuestion.randomizable)
+            idx_opts = idx_opts.sort(function(){return .5 - Math.random();});
+          for (i=0; i < answer.nextQuestion.options.length; i++) {
+            var pos = idx_opts[i];
+            var newLabel = $('<div class="checkbox">' +
+                                '<label>'+
+                                  '<input type="checkbox" value="'+pos+'">'+
+                                  answer.nextQuestion.options[pos]+
+                                '</label>'+
+                              '</div>');
+            $("#quiz-options").append(newLabel);
+          };
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+        });
+      });
+    });
+
+  div(class='navbar navbar-inverse navbar-fixed-top')
+    .navbar-inner
+      .container
+        button.btn.btn-navbar(type='button',
+                data-toggle='collapse', 
+                data-target='.nav-collapse')
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.brand(href="#") ITCR
+        div(class="nav-collapse collapse")
+          ul(class="nav")
+            li.active
+              a(href="#") Home
+            li
+              a(href="#about") About
+            li
+              a(href="#contact") Contact
+  .container
+    .row-fluid.heading
+      .span12
+        h1=title
+    .row-fluid.subheading
+      .span12
+        p(class='lead') #{name}
+    .row-fluid.pitch
+        .span5.offset1.copy.copy-right
+          p#text-question(data-value=quizID).
+            #{quiz.question}
+        .span5.actions
+            .span10.offset1
+              fieldset#quiz-options(data-value=numQuestion)
+                each val, i in quiz.options
+                  .checkbox
+                    label(id="label"+i.toString())
+                      input(type='checkbox', value=i.toString()) 
+                      | #{val}
+              input(type='button' id='submit' value='Submit')
+    .row-fluid.faq
+      .span10.offset1
+        h3 Pistas
+        .accordion#accordion2
+          .accordion-group
+            .accordion-heading
+              a.accordion-toggle(data-toggle='collapse', 
+                                data-parent='#accordion2',
+                                href='#collapseOne')
+                                = "Pista 1"
+            .accordion-body.collapse#collapseOne
+              .accordion-inner
+                = "Esto es una pista"
+          .accordion-group
+            .accordion-heading
+              .a.accordion-toggle(data-toggle='collapse',
+                                data-parent='#accordion2',
+                                href='#collapseTwo')
+                                = "Pista 2"
+            .accordion-body.collapse#collapseTwo
+              .accordion-inner
+                = "Esto es otra pista"
+    .row-fluid.footer
+      .span12
+        p.
+          Este trabajo esta licenciado por la licencia 
+          <a href="http://creativecommons.org/licenses/by-sa/3.0/">
+          By-SA 3.0</a>, sin todo el texto que de otro modo se pondía aquí
+          
